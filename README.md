@@ -2,7 +2,7 @@
 
 Los ejercicios se realizarán con Android Studio Meerkat.
 La actividad principal tendrá varios botones, cada uno de los cuales permitirá lanzar un ejercicio.
-![alt text](image.png)
+![alt text](imagee.png)
 ![alt text](image-1.png)
 ---
 
