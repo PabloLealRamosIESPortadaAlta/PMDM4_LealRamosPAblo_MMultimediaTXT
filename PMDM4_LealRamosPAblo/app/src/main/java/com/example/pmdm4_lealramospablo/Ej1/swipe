@@ -1,0 +1,29 @@
+  // Detectar gestos de deslizamiento (swipe)
+
+
+
+//        visorImagenes.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//                switch (event.getAction()) {
+//                    case MotionEvent.ACTION_DOWN:
+//                        x1 = event.getX();
+//                        return true;
+//                    case MotionEvent.ACTION_UP:
+//                        x2 = event.getX();
+//                        if (x1 > x2 + 100) {  // Swipe izquierda
+//                            visorImagenes.setInAnimation(MainActivity1.this, android.R.anim.slide_in_left);
+//                            visorImagenes.setOutAnimation(MainActivity1.this, android.R.anim.slide_out_right);
+//                            visorImagenes.showNext();
+//                            sonidoCambio.start();
+//                        } else if (x1 < x2 - 100) {  // Swipe derecha
+//                            visorImagenes.setInAnimation(MainActivity1.this, android.R.anim.slide_out_right);
+//                            visorImagenes.setOutAnimation(MainActivity1.this, android.R.anim.slide_in_left);
+//                            visorImagenes.showPrevious();
+//                            sonidoCambio.start();
+//                        }
+//                        return true;
+//                }
+//                return false;
+//            }
+//        });
